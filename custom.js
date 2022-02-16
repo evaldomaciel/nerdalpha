@@ -10,7 +10,7 @@ $(document).ready(function () {
 	$(".fa-facebook-f").parent().attr("href", linkFacebook).attr("target", "_blank");
 	$(".fa-linkedin-in").parent().attr("href", linkLinkedin).attr("target", "_blank");
 	$(".fab fa-twitter").parent().attr("href", linkTwitter).attr("target", "_blank");
-	$(".fa-instagram").parent().attr("href", linkInstagram).attr("target", "_blank");
+	$(".fa-instagram").parent().attr("href", linkInstagram).attr("target", "_blank"); 
 
 });
 
