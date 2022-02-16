@@ -7,10 +7,10 @@ $(document).ready(function () {
 	const linkLinkedin = "https://www.linkedin.com/company/nerdalpha/";
 	const linkTwitter = "https://twitter.com/onerdalpha";
 
-	$(".fa-facebook-f").parent().attr("href", linkFacebook);
-	$(".fa-linkedin-in").parent().attr("href", linkLinkedin);
-	$(".fab fa-twitter").parent().attr("href", linkTwitter);
-	$(".fa-instagram").parent().attr("href", linkInstagram);
+	$(".fa-facebook-f").parent().attr("href", linkFacebook).attr("target", "_blank");
+	$(".fa-linkedin-in").parent().attr("href", linkLinkedin).attr("target", "_blank");
+	$(".fab fa-twitter").parent().attr("href", linkTwitter).attr("target", "_blank");
+	$(".fa-instagram").parent().attr("href", linkInstagram).attr("target", "_blank");
 
 });
 
@@ -28,5 +28,13 @@ $(document).ready(function () {
 
 
   Change URL from raw.github.com or raw.githubusercontent.com to cdn.rawgit.com
+
+ 	https://raw.githubusercontent.com/evaldomaciel/nerdalpha/main/custom.js
+
+  	https://cdn.rawgit.com/evaldomaciel/nerdalpha/main/custom.js
+
+  	https://gist.github.com/evaldomaciel/nerdalpha/main/custom.js
+
+
 
  */
